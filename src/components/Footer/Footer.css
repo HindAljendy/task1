@@ -1,0 +1,23 @@
+.HJ_Footer {
+    margin-top: 150px;
+    background-color: #1e1e1e;
+    height: 100%;
+}
+
+
+.HJ_Footer .HJ_paragraphFooter {
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.HJ_Footer .HJ_paragraphFooter .HJ_LinkFooter {
+    color: #fff;
+    transition: all .3s;
+    position: relative;
+    z-index: 3;
+    text-decoration: none !important;
+
+}

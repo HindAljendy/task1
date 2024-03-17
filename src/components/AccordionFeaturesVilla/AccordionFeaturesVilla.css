@@ -1,0 +1,35 @@
+.HJ_Accordion .HJ_Accordionbody{
+    background-color:#fafafa !important ;
+}
+.HJ_Accordion .HJ_Accordionbody .HJ_btnVilla{
+    color: rgb(0, 26, 255);
+    border: none;
+    background-color: transparent;
+    padding-inline: 5px;
+}
+.accordion-button:not(.collapsed){
+    color: #f35525 !important;
+}
+.accordion-button {
+    background-color:#fafafa !important ;
+    box-shadow: none !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    cursor: pointer;
+}
+
+.HJ_Accordion .HJ_Accordionbody .HJ_Font_pink{
+    font-size: 14px;
+    color: #D63384;
+    word-wrap: break-word;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    padding-inline: 5px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .HJ_Accordion .HJ_Accordionbody{
+        font-size: 18px;
+    }
+
+}

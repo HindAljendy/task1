@@ -1,0 +1,71 @@
+.HJ_FormContact {
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+    background-color: #fff;
+    width: 436px;
+}
+
+
+.HJ_FormContact  .HJ_LabelForm {
+    font-size: 15px;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+}
+
+.HJ_FormContact  .HJ_InputForm {
+    width: 100%;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 14px;
+    padding: 0px 15px;
+}
+
+.HJ_FormContact  .HJ_TextArea {
+    width: 100%;
+    height: 150px;
+    max-height: 180px;
+    border-radius: 22px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-bottom: 40px;
+    font-size: 14px;
+    padding: 15px 15px;
+
+}
+
+.HJ_FormContact  .HJ_SubmitBtn {
+    background-color: #1e1e1e;
+    height: 44px;
+    border-radius: 22px;
+    padding: 0px 20px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .HJ_FormContact  .HJ_LabelForm {
+        font-size: 18px;
+    }
+    
+    .HJ_FormContact  .HJ_InputForm {
+        font-size: 18px;
+    }
+    
+    .HJ_FormContact  .HJ_TextArea {
+        font-size: 18px;
+    }
+    
+    .HJ_FormContact  .HJ_SubmitBtn {
+        font-size: 18px;
+    }
+
+}

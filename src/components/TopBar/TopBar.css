@@ -1,0 +1,63 @@
+.HJ_TopBar {
+    background-color: #fff;
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    display: block;
+}
+.HJ_TopBar .HJ_ContentTopbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+
+}
+.HJ_TopBar .HJ_ContentTopbar .HJ_info{
+    display: flex;
+    align-items: center;
+}
+.HJ_TopBar .HJ_ContentTopbar .HJ_info .HJ_SubContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.HJ_TopBar .HJ_ContentTopbar .HJ_info .HJ_SubContainer .HJ_iconColor{
+    color:#f35525 ;
+    font-size: 20px;
+    margin-right: 8px;
+    
+}
+.HJ_TopBar .HJ_ContentTopbar .HJ_info .HJ_SubContainer  .HJ_SubTitle{
+    font-size: 14px;
+    color: #7a7a7a;
+    border-right: 1px solid #eee;
+    margin-right: 25px;
+    padding-right: 25px;
+}
+.HJ_TopBar .HJ_ContentTopbar .HJ_SocialLinks{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+   
+}
+.HJ_TopBar .HJ_ContentTopbar .HJ_SocialLinks  .HJ_CircleIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #cdcdcd;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    transition: all .3s;
+    position: relative;
+
+}
+@media screen and (max-width: 992px){
+    .HJ_TopBar {
+        display: none;
+    }
+
+}
+

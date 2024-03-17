@@ -1,0 +1,90 @@
+.HJ_SinglePropertyDetails {
+    margin-top: 120px;
+}
+.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_ColorMain {
+    background-color: #fbd9cf;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #1e1e1e;
+    padding: 5px 12px;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+
+
+.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_titleMain {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_paragrapnMain{
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+}
+.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_paragrapnMain a {
+    text-decoration: none;
+}
+
+.HJ_SinglePropertyDetails  .HJ_MainContent .HJ_MainSpace{
+    margin-top: 60px;
+
+}
+.HJ_SinglePropertyDetails .HJ_MainImage{
+    width:736px
+
+}
+.HJ_SinglePropertyDetails .HJ_MainImage img{
+    width:100%;
+}
+
+@media screen and (max-width: 1919px) {
+    .HJ_SinglePropertyDetails .HJ_MainImage{
+        width:600px;
+    }
+    .HJ_SinglePropertyDetails .HJ_MainImage img{
+        width:100%;
+    }
+    .HJ_SinglePropertyDetails .HJ_InfoVilla{
+        width: max-content;
+    } 
+    .HJ_sizeMain{
+        width:600px;
+
+    }
+
+}
+@media screen and (max-width: 991px) {
+    .HJ_SinglePropertyDetails .HJ_InfoVilla{
+        width:100%;
+        margin-top: 50px;
+    } 
+    .HJ_sizeMain{
+        width: 100%;
+    }
+    .HJ_SinglePropertyDetails .HJ_MainImage{
+        width:100%;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .HJ_SinglePropertyDetails  .HJ_MainContent .HJ_ColorMain {
+        font-size: 18px;
+    }
+    
+    .HJ_SinglePropertyDetails  .HJ_MainContent .HJ_titleMain {
+        font-size: 30px;
+    }
+    .HJ_SinglePropertyDetails  .HJ_MainContent .HJ_paragrapnMain{
+        font-size: 18px;
+    }
+
+}
